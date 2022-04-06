@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chasing the sun</string>
+    <!--Strings clase inicioActivity y RegistroActivity-->
+    <string name="inicio_sesion">Login</string>
+    <string name="hint_nombre">Username</string>
+    <string name="hint_pass">Password</string>
+    <string name="hint_pass_2">Repeat password</string>
+    <string name="inicio_no_cuenta">Not registered yet? Press the following button to register</string>
+    <string name="inicio_cuenta">Already have an account? Press the following button to login</string>
+    <string name="btn_registro">Register</string>
+    <string name="alert_registro">Error</string>
+    <string name="info_registro">Info</string>
+    <string name="msg_registro">Username will have between 3 and 12 letters and no numbers and password must have 8 digits and only numbers</string>
+    <!--Strings clase CharacterActivity-->
+    <string name="personaje">Choose a character</string>
+    <string name="opcion_rayo"> You\'ve choosen the lightning</string>
+    <string name="opcion_estrella"> You\'ve choosen the star </string>
+    <string name="msg_continuar">Do you want to continue?</string>
+    <string name="opcion_aceptar">Yes</string>
+    <string name="opcion_volver">Go back</string>
+    <!--Strings clase MMenuEstrellaActivity y MenuRayoActivity-->
+    <string name="txt_estadisticas">Statistics</string>
+    <string name="btn_jugar">Play</string>
+    <!--Strings de la clase JuegoEstrellaActivity y JuegoRayoActivity-->
+    <string name="tutorial_titulo">Game tutorial</string>
+    <string name="tutorial_contenido"> The main task of the game is to make the heroe reach the final tile by throwing the dice the least.\n \n
+        To achieve this you will have to roll the dice in order to move the heroe the number of tiles according to the dice. \n \n
+        The game won\'t end until the heroe reaches the final tile.</string>
+    <string name="tutorial_opcion">Understood</string>
+    <string name="txt_puntuacion">Rolls: 0</string>
+    <string name="txt_victoria">You won!</string>
+    <string name="txt_no_superado">You\'ve been close to surpass your record</string>
+    <string name="txt_superado">And also you\'ve made a new record</string>
+    <string name="info_tiradas">Rolls: </string>
+    <string name="info_record">Record: </string>
+    <string name="opcion_reiniciar">Play again</string>
+</resources>

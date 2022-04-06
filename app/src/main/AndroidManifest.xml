@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.minijuegopmdm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/splashScreenTheme">
+        <activity
+            android:name=".inicio.InicioActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".inicio.RegistroActivity"
+            android:exported="true" >
+        </activity>
+        <activity
+            android:name=".inicio.CharacterActivity"
+            android:exported="true" >
+        </activity>
+
+        <activity
+            android:name=".juego.menus.MenuRayoActivity"
+            android:exported="true" >
+        </activity>
+
+        <activity
+            android:name=".juego.menus.MenuEstrellaActivity"
+            android:exported="true" >
+        </activity>
+
+        <activity
+            android:name=".juego.juegos.JuegoRayoActivity"
+            android:exported="true" >
+        </activity>
+
+        <activity
+            android:name=".juego.juegos.JuegoEstrellaActivity"
+            android:exported="true" >
+        </activity>
+
+    </application>
+
+</manifest>

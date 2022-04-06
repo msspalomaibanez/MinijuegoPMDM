@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Chasing the sun</string>
+    <!--Strings clase inicioActivity y RegistroActivity-->
+    <string name="inicio_sesion">Iniciar Sesión</string>
+    <string name="hint_nombre">Nombre de usuario</string>
+    <string name="hint_pass">Contraseña</string>
+    <string name="hint_pass_2">Repita la contraseña</string>
+    <string name="inicio_no_cuenta">¿No te has registrado aún? Pulsa el siguiente botón para registrarte</string>
+    <string name="inicio_cuenta">¿Ya te has registrado? Pulsa el siguiente botón para iniciar sesión</string>
+    <string name="btn_registro">Registrarse</string>
+    <string name="info_registro">Info</string>
+    <string name="alert_registro">Error</string>
+    <string name="msg_registro">El nombre tendrá entre 3 y 12 letras sin números y la contraseña deberá tener 8 dígitos sólo numérica</string>
+    <!--Strings clase CharacterActivity-->
+    <string name="personaje">Escoje un personaje</string>
+    <string name="opcion_rayo"> Has escogido el rayo</string>
+    <string name="opcion_estrella"> Has escogido la estrella </string>
+    <string name="msg_continuar">Deseas continuar?</string>
+    <string name="opcion_aceptar">Si</string>
+    <string name="opcion_volver">Volver</string>
+    <!--Strings clase MMenuEstrellaActivity y MenuRayoActivity-->
+    <string name="txt_estadisticas">Estadísticas</string>
+    <string name="btn_jugar">Jugar</string>
+    <!--Strings de la clase JuegoEstrellaActivity y JuegoRayoActivity-->
+    <string name="tutorial_titulo"> Tutorial del juego</string>
+    <string name="tutorial_contenido"> El objetivo del juego es hacer llegar al héroe a la casilla final en el menor número de tiradas posible.\n \n
+    Para ello se tirará el dado y se moverá al héroe según el número que haya salido.\n \n
+        La partida no acabará hasta que el héroe no llegue al final.</string>
+    <string name="tutorial_opcion">Entendido</string>
+    <string name="txt_puntuacion">Tiradas: 0</string>
+    <string name="txt_victoria">¡Has ganado!</string>
+    <string name="txt_no_superado">Has estado cerca de superar tu récord</string>
+    <string name="txt_superado">Y además has conseguido un nuevo récord</string>
+    <string name="info_tiradas">Tiradas: </string>
+    <string name="info_record">Récord: </string>
+    <string name="opcion_reiniciar">Jugar de nuevo</string>
+</resources>
